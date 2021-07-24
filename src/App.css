@@ -1,38 +1,24 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap');
+
+
+*{
+  box-sizing: border-box;
+  margin: 100;
+  padding: 100;
+  font-family: 'EB Garamond', serif;
+  /* background: #F6F8F9;
+  background: -webkit-radial-gradient(circle farthest-corner at center center, #F6F8F9 0%, #E5EBEE 23%, #D7DEE3 100%, #F5F7F9 100%);
+  background: -moz-radial-gradient(circle farthest-corner at center center, #F6F8F9 0%, #E5EBEE 23%, #D7DEE3 100%, #F5F7F9 100%);
+  background: radial-gradient(circle farthest-corner at center center, #F6F8F9 0%, #E5EBEE 23%, #D7DEE3 100%, #F5F7F9 100%); */
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+body {
+  background-image: url("https://images.unsplash.com/reserve/D9xlw7UxTBqQw5sLf8cJ_reef%20insp-72.jpg?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80");
+  height: 100vh;
+  width: 100vw;
+  background-size: cover;
+  background-position: center;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  align-items: center;
 }
